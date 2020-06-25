@@ -6,6 +6,8 @@ if 16 <= age <= 65:
 if age < 16 or age > 65:
     print("Enjoy your free time")
 
+# --------------------------------------------------
+
 day = "Monday"
 temperature = 85
 raining = True
@@ -15,6 +17,7 @@ if day == "Saturday" and temperature > 70 and not raining:
 else:
     print("Learn Python")
 
+# --------------------------------------------------
 
 answer = 5
 
@@ -33,3 +36,14 @@ if guess != answer:
         print("You lose")
 else:
     print("You win")
+
+# --------------------------------------------------
+
+name = input("Please enter guest's name: ")
+age = int(input("Please enter guest's age: "))
+
+if 18 <= age <= 31:
+    # if age in range (18, 32):
+    print("We will be awaiting your arrival")
+else:
+    print("I am sorry, this party is only for young adults")
