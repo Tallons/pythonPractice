@@ -39,10 +39,14 @@ print(capital_letters)
 for i in range(10):
     print(i)
 
+r = range(0, 10)
+for i in r[::-1]:
+    print(i)
 # --------------------------------------------------
 
 for i in range(10, 0, -2):
     print(i)
+
 
 
 # ****** WHILE LOOPS ******

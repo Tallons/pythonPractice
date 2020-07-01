@@ -52,3 +52,11 @@ odd = list(range(1, 10, 2))
 
 print(even)
 print(odd)
+print(even[3]) # [0, 2, 4, 6, 8, 10] = 6
+
+# -----------------------------------------
+
+color = ["blue", "red", "orange", "yellow"]
+print(color)
+color[0] = "purple"
+print(color)
