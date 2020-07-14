@@ -2,8 +2,8 @@ weapon_list = ["sword", "axe", "polearm", "flail"]
 
 weapon_list.append("mace")
 
-for state in weapon_list:
-    print("This weapon is a " + state)
+for weapon_type in weapon_list:
+    print("This weapon is a " + weapon_type)
 
 # -----------------------------------------
 

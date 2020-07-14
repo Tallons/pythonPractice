@@ -9,4 +9,14 @@ backString = "egaugnal lufrewop yrev a si nohtyP"
 print(backString[::-1])
 
 
+shopping_list = [ "butter", "milk", "eggs", "bread"]
+print(id(shopping_list))
+
+shopping_list += ["cookies"]
+print(shopping_list)
+print(id(shopping_list))
+
+
+
+
 
