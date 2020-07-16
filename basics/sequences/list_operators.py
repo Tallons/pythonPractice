@@ -6,8 +6,18 @@ print(max(odd))
 print(min(even))
 print(max(even))
 
+even.extend(odd)
+print(even)
+
+even.sort() # even.sort(reverse=True)
+print(even) # Items are sorted without making a copy
+
+# ------------------------------------
+
 print("s: ","mississippi".count("s"))
 print("iss: ","mississippi".count("iss"))
+
+# ------------------------------------
 
 data = [
     "Andromeda - Shrub",
