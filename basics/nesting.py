@@ -30,3 +30,22 @@ for meal in menu:
 
     else:
         print("{0} has a spam score: {1}".format(meal, meal.count("spam")))
+
+ # Remove Spam (changes the list)
+for meal in menu:
+    for index in range(len(meal) - 1, -1, -1):
+        if meal[index] == "spam":
+            del meal[index]
+
+print("menu: ", menu)
+
+ # Creates a new list without Spam
+newMenu = []
+for meal in menu:
+    newMeal = []
+    for item in meal:
+        if item != "spam":
+            newMeal.append(item)
+    newMenu.append(newMeal)
+
+print(newMenu, end="!")

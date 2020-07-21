@@ -13,10 +13,6 @@ even.sort() # even.sort(reverse=True)
 print(even) # Items are sorted without making a copy
 
 
-
-
-
-
 # ------------------------------------
 
 print("s: ","mississippi".count("s"))
